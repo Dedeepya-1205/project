@@ -5,6 +5,8 @@ b=3
 
 sum=$(expr $a + $b)
 difference=$(expr $a - $b)
+product=$(expr $a \* $b)
 
 echo "Sum: $sum"
 echo "Difference: $difference"
+echo "product: $product"
